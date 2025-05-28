@@ -1,0 +1,244 @@
+<orders xmlns="http://www.demandware.com/xml/impex/order/2006-10-31">
+      <order order-no="DGRA00003103" xmlns="http://www.demandware.com/xml/impex/order/2006-10-31">
+        <order-date>2023-09-06T12:46:12.000Z</order-date>
+        <created-by>storefront</created-by>
+        <original-order-no>DGRA00003103</original-order-no>
+        <currency>USD</currency>
+        <customer-locale>en_US</customer-locale>
+        <taxation>net</taxation>
+        <invoice-no>DGRA00003503</invoice-no>
+        <customer>
+          <customer-no>DEV0299402016</customer-no>
+          <customer-name>Mohit Employee</customer-name>
+          <customer-email>mohitasijaemployee@yopmail.com</customer-email>
+          <billing-address>
+            <first-name>Mohit</first-name>
+            <last-name>US</last-name>
+            <address1>35 HUDSON ST</address1>
+            <city>Jersey City</city>
+            <postal-code>07302</postal-code>
+            <state-code>NJ</state-code>
+            <country-code>US</country-code>
+            <phone>8563616560</phone>
+          </billing-address>
+        </customer>
+        <status>
+          <order-status>NEW</order-status>
+          <shipping-status>NOT_SHIPPED</shipping-status>
+          <confirmation-status>CONFIRMED</confirmation-status>
+          <payment-status>NOT_PAID</payment-status>
+        </status>
+        <channel-type>Storefront</channel-type>
+        <current-order-no>DGRA00003103</current-order-no>
+        <product-lineitems>
+          <product-lineitem>
+            <net-price>62.00</net-price>
+            <tax>0.00</tax>
+            <gross-price>62.00</gross-price>
+            <base-price>31.00</base-price>
+            <lineitem-text>eyebrow and eyeliner compact</lineitem-text>
+            <tax-basis>62.00</tax-basis>
+            <position>1</position>
+            <product-id>0729238318373</product-id>
+            <product-name>eyebrow and eyeliner compact</product-name>
+            <quantity unit="">2.0</quantity>
+            <tax-rate>0.0</tax-rate>
+            <shipment-id>DGRA00003503</shipment-id>
+            <gift>false</gift>
+          </product-lineitem>
+          <product-lineitem>
+            <net-price>61.00</net-price>
+            <tax>0.00</tax>
+            <gross-price>61.00</gross-price>
+            <base-price>61.00</base-price>
+            <lineitem-text>ColorGel LipBalm</lineitem-text>
+            <tax-basis>61.00</tax-basis>
+            <position>2</position>
+            <product-id>0729238148963</product-id>
+            <product-name>ColorGel LipBalm</product-name>
+            <quantity unit="">1.0</quantity>
+            <tax-rate>0.0</tax-rate>
+            <shipment-id>DGRA00003503</shipment-id>
+            <option-lineitems>
+              <option-lineitem>
+                <net-price>0.00</net-price>
+                <tax>0.00</tax>
+                <gross-price>0.00</gross-price>
+                <base-price>0.00</base-price>
+                <lineitem-text>Auto-Replenishment: Select cycle</lineitem-text>
+                <tax-basis>0.00</tax-basis>
+                <option-id>auto_replenishment_option</option-id>
+                <value-id>auto_replenishment_option_no</value-id>
+                <product-id>SHI-AR-Option-No</product-id>
+              </option-lineitem>
+            </option-lineitems>
+            <gift>false</gift>
+          </product-lineitem>
+          <product-lineitem>
+            <net-price>41.00</net-price>
+            <tax>0.00</tax>
+            <gross-price>41.00</gross-price>
+            <base-price>41.00</base-price>
+            <lineitem-text>Hardwired Eyeshadow</lineitem-text>
+            <tax-basis>41.00</tax-basis>
+            <position>3</position>
+            <product-id>0607845053347</product-id>
+            <product-name>Hardwired Eyeshadow</product-name>
+            <quantity unit="">1.0</quantity>
+            <tax-rate>0.0</tax-rate>
+            <shipment-id>DGRA00003503</shipment-id>
+            <gift>false</gift>
+          </product-lineitem>
+          <product-lineitem>
+            <net-price>91.00</net-price>
+            <tax>0.00</tax>
+            <gross-price>91.00</gross-price>
+            <base-price>91.00</base-price>
+            <lineitem-text>Virgin Marula Luxury Facial Oil</lineitem-text>
+            <tax-basis>91.00</tax-basis>
+            <position>4</position>
+            <product-id>856556004821</product-id>
+            <product-name>Virgin Marula Luxury Facial Oil</product-name>
+            <quantity unit="">1.0</quantity>
+            <tax-rate>0.0</tax-rate>
+            <shipment-id>DGRA00003503</shipment-id>
+            <gift>false</gift>
+          </product-lineitem>
+        </product-lineitems>
+        <shipping-lineitems>
+          <shipping-lineitem>
+            <net-price>0.00</net-price>
+            <tax>0.00</tax>
+            <gross-price>0.00</gross-price>
+            <base-price>0.00</base-price>
+            <lineitem-text>Shipping</lineitem-text>
+            <tax-basis>0.00</tax-basis>
+            <item-id>STANDARD_SHIPPING</item-id>
+            <shipment-id>DGRA00003503</shipment-id>
+            <tax-rate>0.0</tax-rate>
+          </shipping-lineitem>
+        </shipping-lineitems>
+        <shipments>
+          <shipment shipment-id="DGRA00003503">
+            <status>
+              <shipping-status>NOT_SHIPPED</shipping-status>
+            </status>
+            <shipping-method>001</shipping-method>
+            <shipping-address>
+              <first-name>Mohit</first-name>
+              <last-name>US</last-name>
+              <address1>35 HUDSON ST</address1>
+              <city>Jersey City</city>
+              <postal-code>07302</postal-code>
+              <state-code>NJ</state-code>
+              <country-code>US</country-code>
+              <phone>8563616560</phone>
+            </shipping-address>
+            <gift>false</gift>
+            <totals>
+              <merchandize-total>
+                <net-price>255.00</net-price>
+                <tax>0.00</tax>
+                <gross-price>255.00</gross-price>
+              </merchandize-total>
+              <adjusted-merchandize-total>
+                <net-price>255.00</net-price>
+                <tax>0.00</tax>
+                <gross-price>255.00</gross-price>
+              </adjusted-merchandize-total>
+              <shipping-total>
+                <net-price>0.00</net-price>
+                <tax>0.00</tax>
+                <gross-price>0.00</gross-price>
+              </shipping-total>
+              <adjusted-shipping-total>
+                <net-price>0.00</net-price>
+                <tax>0.00</tax>
+                <gross-price>0.00</gross-price>
+              </adjusted-shipping-total>
+              <shipment-total>
+                <net-price>255.00</net-price>
+                <tax>0.00</tax>
+                <gross-price>255.00</gross-price>
+              </shipment-total>
+            </totals>
+          </shipment>
+        </shipments>
+        <totals>
+          <merchandize-total>
+            <net-price>255.00</net-price>
+            <tax>0.00</tax>
+            <gross-price>255.00</gross-price>
+          </merchandize-total>
+          <adjusted-merchandize-total>
+            <net-price>255.00</net-price>
+            <tax>0.00</tax>
+            <gross-price>255.00</gross-price>
+          </adjusted-merchandize-total>
+          <shipping-total>
+            <net-price>0.00</net-price>
+            <tax>0.00</tax>
+            <gross-price>0.00</gross-price>
+          </shipping-total>
+          <adjusted-shipping-total>
+            <net-price>0.00</net-price>
+            <tax>0.00</tax>
+            <gross-price>0.00</gross-price>
+          </adjusted-shipping-total>
+          <order-total>
+            <net-price>255.00</net-price>
+            <tax>0.00</tax>
+            <gross-price>255.00</gross-price>
+          </order-total>
+        </totals>
+        <payments>
+          <payment>
+            <custom-method>
+              <method-name>gratis</method-name>
+            </custom-method>
+            <amount>255.00</amount>
+            <processor-id>GRATIS_PAYMENT</processor-id>
+          </payment>
+        </payments>
+        <custom-attributes>
+          <custom-attribute attribute-id="customerPONum">GRADEV0299402016</custom-attribute>
+          <custom-attribute attribute-id="gratisSeason">GRA</custom-attribute>
+          <custom-attribute attribute-id="shipEndDate">2023-09-30T00:00:00.000+0000</custom-attribute>
+          <custom-attribute attribute-id="shipStartDate">2023-08-05T00:00:00.000+0000</custom-attribute>
+        </custom-attributes>
+      </order>
+    </orders>
+	
+	
+	
+	
+	-----------------------------------------------------------------------
+	
+	
+	
+	%dw 2.0
+output application/json
+---
+{
+"Line Item ID" : payload.orders.order."product-lineitems"."product-lineitem".position,
+"Brand" : "Shiseido Gratis Program",
+"Order Number" : payload.orders.order.@"order-no",
+"Order Date" : payload.orders.order."order-date",
+"Ship Date Start" : payload.orders.order."custom-attributes".*"custom-attribute" filter ((customAttribute) -> customAttribute.@"attribute-id" == "shipStartDate") joinBy "" ,
+"Ship Date End" : payload.orders.order."custom-attributes".*"custom-attribute" filter ((customAttribute) -> customAttribute.@"attribute-id" == "shipEndDate") joinBy "" ,
+"Buyer" : payload.orders.order.customer."customer-name",
+"Customer Code" : payload.orders.order."invoice-no",
+"Sales Rep" : "Gratis Account",
+"Currency Code" : payload.orders.order.currency,
+"Order Total" : payload.orders.order.totals."order-total",
+"Quantity" : payload.orders.order."product-lineitems"."product-lineitem".quantity.@"unit",
+"Price Per" : payload.orders.order."product-lineitems"."product-lineitem"."gross-price",
+"Net Price Per" : payload.orders.order."product-lineitems"."product-lineitem"."net-price",
+"Additional Disc Per" : "0.00",
+"Discount Code" : " ",
+"Order Notes" : " ",
+"Customer PO Number" : payload.orders.order."custom-attributes".*"custom-attribute" filter ((customAttribute) -> customAttribute.@"attribute-id" == "customerPONum") joinBy "",
+"Freight" : " ",//default to blank
+"Warehouse" : "ADC",
+"Drop Ship Contact" : payload.orders.order.shipments.shipment."shipping-address"
+}
